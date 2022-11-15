@@ -59,7 +59,7 @@ const HomePage = (props) => {
 
 export async function getStaticProps() {
   const client = await new MongoClient(
-    "mongodb+srv://ayush:ayush@cluster0.iqtihnr.mongodb.net/meetups"
+    "mongo db connection string"
   );
 
   const db = client.db();
