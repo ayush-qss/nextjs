@@ -6,7 +6,7 @@ async function handler(req, res) {
 
     try {
       const client = await new MongoClient(
-        "mongodb+srv://ayush:ayush@cluster0.iqtihnr.mongodb.net/meetups"
+        "mongo db connection string"
       );
       const db = client.db();
 
